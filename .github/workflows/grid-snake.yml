@@ -14,9 +14,7 @@ on:
   workflow_dispatch:
 
   # run on every push on the master branch
-  push:
-    branches:
-    - master
+  push: {branches: ["master", "main"]}
 
 # The sequence of runs in this workflow:
 # Последовательность прогонов в этом рабочем процессе:
@@ -40,7 +38,7 @@ jobs:
         env:
           # a github token is required to fetch the contribution calendar from github API
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: push github-contribution-grid-snake.svg to the output branch
