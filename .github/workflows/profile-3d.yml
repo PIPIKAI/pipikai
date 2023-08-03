@@ -17,10 +17,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      - name: Commit & Push
-        run: |
-          git config user.name pipikai
-          git config user.email z1652091948@outlook.com
-          git add -A .
-          git commit -m "generated"
-          git push
+      # - name: Commit & Push
+      #   run: |
+      #     git config user.name pipikai
+      #     git config user.email z1652091948@outlook.com
+      #     git add -A .
+      #     git commit -m "generated"
+      #     git push
+
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: profile-3d-contrib
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
