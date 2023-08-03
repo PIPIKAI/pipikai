@@ -1,3 +1,7 @@
+![](assets/Bottom_up.svg)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=1DF764&width=435&lines=Hi+there+%F0%9F%91%8B%2C+I+am+ZhiKai;Welcome+to+My+Profile!)](https://git.io/typing-svg)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PIPIKAI/pipikai/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PIPIKAI/pipikai/output/github-contribution-grid-snake.svg">
@@ -5,7 +9,7 @@
 </picture>
 <!--   my-header-img -->
 
-![](./assets/header.png)
+
 
 ![](./profile-3d-contrib/profile-gitblock.svg)
 
@@ -22,6 +26,7 @@
 <a href="https://skyline.github.com/BEPb/2022"><img src="./assets/2022.gif" alt="" width="auto" height="auto" /></a> -->
 
 
+![](./assets/header.png)
 
 <!--  2d history skills -->
 <img src="https://cr-skills-chart-widget.azurewebsites.net/api/api?username=pipikai" width="auto"></img>
